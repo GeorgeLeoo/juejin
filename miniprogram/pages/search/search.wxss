@@ -1,1 +1,3 @@
-/* miniprogram/pages/search/search.wxss */
+.search-wrapper{
+  /* background: # */
+}

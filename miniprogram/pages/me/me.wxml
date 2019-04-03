@@ -1,40 +1,51 @@
-<view class='container'>
+<view class='content'>
   <!-- 头像 注册 登录 -->
-  <view class='white_bg'>
+  <navigator class='white_bg list avatar-item'>
     <image class='avatar' src='../../images/avatar/avatar.png'></image>
-    <view>
-      <text>登录/注册</text>
-      <text>添加职位 @ 添加公司</text>
+    <view class='avatarbox'>
+      <view class='avatar2'>
+        <text class='loginreg'>登录/注册</text>
+        <text>添加职位 @ 添加公司</text>
+      </view>
+      <icon class='iconfont icon-youjiantou'></icon>
     </view>
-  </view>
+  </navigator>
   <!-- 列表1 -->
-  <view>
-    <view>
-      <text class='iconfont icon-like'>消息通知</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>我赞过的</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>收藏集</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>已购小册</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>阅读过的文章</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>标签管理</text>
-    </view>
+  <view class='white_bg list'>
+    <navigator class='item'>
+      <icon class='iconfont icon-notice color-notice'></icon>
+      <text>消息通知</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-like1 color-like'></icon>
+      <text>我赞过的</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-collect color-collect'></icon>
+      <text>收藏集</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-shopping color-book'></icon>
+      <text>已购小册</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-view color1'></icon>
+      <text>阅读过的文章</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-tag color1'></icon>
+      <text>标签管理</text>
+    </navigator>
   </view>
   <!-- 列表2 -->
-  <view>
-    <view>
-      <text class='iconfont icon-like'>一件反馈</text>
-    </view>
-    <view>
-      <text class='iconfont icon-like'>设置</text>
-    </view>
+  <view class='white_bg list'>
+    <navigator class='item'>
+      <icon class='iconfont icon-feedback color1'></icon>
+      <text>意见反馈</text>
+    </navigator>
+    <navigator class='item'>
+      <icon class='iconfont icon-setting color1'></icon>
+      <text>设置</text>
+    </navigator>
   </view>
 </view>

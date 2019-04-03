@@ -2,13 +2,6 @@
 
 ## 首先我们配置tabBar
  - 新建home、find、search、book、user四个组件
-    ---pages
-          |
-          ---book
-          ---find
-          ---home
-          ---me
-          ---search
     
  - 打开app.json，在里面添加如下代码
 ```

@@ -1,2 +1,9 @@
-<!--miniprogram/pages/search/search.wxml-->
-<text>miniprogram/pages/search/search.wxml</text>
+<view>
+  <!-- 搜索框 -->
+  <view class='search-wrapper'>
+    <view class=''>
+      <icon class='iconfont icon-0201chazhao'></icon>
+      <input placeholder='搜索文章、用户、标签'></input>
+    </view>
+  </view>
+</view>
