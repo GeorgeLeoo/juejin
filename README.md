@@ -1,12 +1,39 @@
-# 云开发 quickstart
+# 这是一个仿掘金项目
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
-
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
-
-## 参考文档
-
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-
+## 首先我们配置tabBar
+ - 新建home、find、search、book、user四个组件
+ - 打开app.json，在里面添加如下代码
+```
+"tabBar": {
+    "selectedColor": "#007fff",//选中的颜色
+    "backgroundColor": "#ffffff",//背景颜色
+    //存储tab的list
+    "list": [
+      {
+        "pagePath": "pages/home/home",//路径
+        "iconPath": "images/icon/home.png",//图标路径
+        "selectedIconPath": "images/icon/home_selected.png"//选中图标路径
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "images/icon/view.png",
+        "selectedIconPath": "images/icon/view_selected.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/icon/find.png",
+        "selectedIconPath": "images/icon/find_selected.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "images/icon/book.png",
+        "selectedIconPath": "images/icon/book_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/icon/user.png",
+        "selectedIconPath": "images/icon/user_selected.png"
+      }
+    ]
+  }
+```
