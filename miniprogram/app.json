@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/home/home",
+    "pages/book/book",
+    "pages/find/find",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundColor": "#f5f6fa",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#007fff",
+    "navigationBarTitleText": "掘金",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "cloud": true,
+  "tabBar": {
+    "selectedColor": "#007fff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home_selected.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "images/icon/view.png",
+        "selectedIconPath": "images/icon/view_selected.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/icon/find.png",
+        "selectedIconPath": "images/icon/find_selected.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "images/icon/book.png",
+        "selectedIconPath": "images/icon/book_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/icon/user.png",
+        "selectedIconPath": "images/icon/user_selected.png"
+      }
+    ]
+  }
+}

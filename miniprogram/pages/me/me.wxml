@@ -1,0 +1,40 @@
+<view class='container'>
+  <!-- 头像 注册 登录 -->
+  <view class='white_bg'>
+    <image class='avatar' src='../../images/avatar/avatar.png'></image>
+    <view>
+      <text>登录/注册</text>
+      <text>添加职位 @ 添加公司</text>
+    </view>
+  </view>
+  <!-- 列表1 -->
+  <view>
+    <view>
+      <text class='iconfont icon-like'>消息通知</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>我赞过的</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>收藏集</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>已购小册</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>阅读过的文章</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>标签管理</text>
+    </view>
+  </view>
+  <!-- 列表2 -->
+  <view>
+    <view>
+      <text class='iconfont icon-like'>一件反馈</text>
+    </view>
+    <view>
+      <text class='iconfont icon-like'>设置</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,122 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #f5f6fa;
+} 
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1120414 */
+  src: url('//at.alicdn.com/t/font_1120414_72plsscvt16.eot');
+  src: url('//at.alicdn.com/t/font_1120414_72plsscvt16.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1120414_72plsscvt16.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1120414_72plsscvt16.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1120414_72plsscvt16.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1120414_72plsscvt16.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-msg1:before {
+  content: "\e62a";
+}
+
+.icon-notice:before {
+  content: "\e63e";
+}
+
+.icon-user:before {
+  content: "\e62d";
+}
+
+.icon-collect:before {
+  content: "\e626";
+}
+
+.icon-share:before {
+  content: "\e63d";
+}
+
+.icon-like:before {
+  content: "\e647";
+}
+
+.icon-shopping:before {
+  content: "\ea8b";
+}
+
+.icon-28:before {
+  content: "\e6dd";
+}
+
+.icon-0201chazhao:before {
+  content: "\e604";
+}
+
+.icon-setting:before {
+  content: "\e713";
+}
+
+.icon-more:before {
+  content: "\e61f";
+}
+
+.icon-setting1:before {
+  content: "\e608";
+}
+
+.icon-faxian:before {
+  content: "\e609";
+}
+
+.icon-like1:before {
+  content: "\e701";
+}
+
+.icon-fire:before {
+  content: "\e639";
+}
+
+.icon-tag:before {
+  content: "\e72f";
+}
+
+.icon-book:before {
+  content: "\e600";
+}
+
+.icon-remen:before {
+  content: "\e645";
+}
+
+.icon-notice-color:before {
+  content: "\e7e2";
+}
+
+.icon-view:before {
+  content: "\e6b3";
+}
+
+.icon-feedback:before {
+  content: "\e894";
+}
+
+.icon-home:before {
+  content: "\e89c";
+}
+
+.icon-book1:before {
+  content: "\e641";
+}
+
+.icon-baseline-close-px:before {
+  content: "\e615";
+}

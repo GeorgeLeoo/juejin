@@ -1,0 +1,12 @@
+/* miniprogram/pages/me/me.wxss */
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #cccccc;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.white_bg{
+  background-color: #fff;
+}
