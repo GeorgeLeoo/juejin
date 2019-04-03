@@ -7,6 +7,14 @@
   background-color: #f5f6fa;
 } 
 
+.content{
+  background: #f5f6fa;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 @font-face {
   font-family: 'iconfont';  /* project id 1120414 */
   src: url('//at.alicdn.com/t/font_1120414_qkwigp303w.eot');

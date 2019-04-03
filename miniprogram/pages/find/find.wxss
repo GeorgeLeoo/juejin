@@ -1,1 +1,16 @@
-/* miniprogram/pages/find/find.wxss */
+.menu{
+  background: #0080ff;
+  color: #fff;
+  font-size: 12px;
+  height: 38px;
+  box-shadow: 0 1px 1px #ccc;
+}
+.menu text{
+  padding: 0 20px;
+  line-height: 36px;
+  display: inline-block;
+}
+
+.selected{
+  border-bottom: 2px solid #fff;
+}

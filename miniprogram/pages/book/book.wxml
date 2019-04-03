@@ -1,2 +1,42 @@
-<!--miniprogram/pages/book/book.wxml-->
-<text>miniprogram/pages/book/book.wxml</text>
+<view>
+  <view class='book'>
+    <!-- <navigator class='book-item'>
+      <image class='book-img' src='https://user-gold-cdn.xitu.io/2019/2/25/16922d6d22ff1458?w=1950&h=2730&f=png&s=1115662'></image>
+      <view class='book-item-center'>
+        <view>
+          <text class='title'>WebGL入门与实践</text>
+        </view>
+        <view>
+          <text class='author'>lucefer</text>
+        </view>
+        <view class="gray">
+          <text class='classnum'>33小节</text>·
+          <text class='shopnum'>1435人已购买</text>
+        </view>
+      </view>
+      <view class='shopbtn'>¥19.9</view>
+    </navigator> -->
+    <navigator class='book-item' wx:for="{{bookList}}" wx:key="{{index}}">
+      <view class='book-img-wrapper'>
+        <view class='book-img' style='background-image:url({{item.img}})'></view>
+        <!-- <image class='book-img' src='{{item.img}}'></image> -->
+      </view>
+      <view class='book-item-center'>
+        <view>
+          <text class=''></text>
+        </view>
+        <view>
+          <text class='title'>{{item.title}}</text>
+        </view>
+        <view>
+          <text class='author'>{{item.userData.username}}</text>
+        </view>
+        <view class="gray">
+          <text class='classnum'>{{item.section.length}}小节</text>·
+          <text class='shopnum'>{{item.buyCount}}人已购买</text>
+        </view>
+      </view>
+      <view class='shopbtn'>¥{{item.price}}</view>
+    </navigator>
+  </view>
+</view>

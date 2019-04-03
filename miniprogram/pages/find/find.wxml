@@ -1,2 +1,12 @@
-<!--miniprogram/pages/find/find.wxml-->
-<text>miniprogram/pages/find/find.wxml</text>
+<view>
+  <view class='menu'>
+    <text class='selected'>推荐</text>
+    <text>综合</text>
+    <text>沸点</text>
+  </view>
+  <view class='main'>
+    <view>
+      <view></view>
+    </view>
+  </view>
+</view>

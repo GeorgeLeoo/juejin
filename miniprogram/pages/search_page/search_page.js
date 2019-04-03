@@ -1,4 +1,4 @@
-// miniprogram/pages/search/search.js
+// miniprogram/pages/search_page/search_page.js
 Page({
 
   /**
@@ -19,7 +19,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-      
+
   },
 
   /**

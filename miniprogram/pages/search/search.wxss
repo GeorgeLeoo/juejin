@@ -1,3 +1,105 @@
-.search-wrapper{
-  /* background: # */
+.search-wrapper {
+  background: #0080ff;
+  padding: 10px;
+}
+
+.search {
+  background: #3399fe;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 30px;
+}
+
+.search-text {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 12px;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  background: #fff;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3333%;
+}
+
+.menu-item .icon-remen {
+  color: #ff5e34;
+}
+
+.menu-item .icon-book {
+  color: #1ac09a;
+}
+
+.menu-item .icon-notice-color {
+  color: #fc0;
+}
+
+.menu-item icon {
+  font-size: 32px;
+  padding-bottom: 4px;
+}
+
+.menu-item text {
+  font-size: 14px;
+}
+
+.hot-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.hot-top {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f6fa;
+  line-height: 40px;
+}
+
+.hot-top .icon-remen {
+  color: #ff5e34;
+  padding-right: 10px;
+}
+
+.hot-top .icon-setting1 {
+  padding-right: 10px;
+  color: #7e8389;
+}
+
+.hot-top text {
+  color: #7e8389;
+}
+
+.hot-list {
+}
+
+.hot-list-item {
+  border-bottom: 1px solid #f5f6fa;
+  height: 100px;
+  padding: 3px 0;
+}
+
+.text-title{
+  line-height: 30px;
+}
+.text-second{
+  color: #bec5cd;
+  font-size: 12px;
 }

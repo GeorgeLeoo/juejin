@@ -1,9 +1,130 @@
-<view>
+<view class='content'>
   <!-- 搜索框 -->
   <view class='search-wrapper'>
-    <view class=''>
+    <navigator class='search' url='./../search_page/search_page'>
       <icon class='iconfont icon-0201chazhao'></icon>
-      <input placeholder='搜索文章、用户、标签'></input>
+      <text class='search-text'>搜索文章、用户、标签</text>
+    </navigator>
+  </view>
+  <!-- swipper -->
+  <swiper autoplay='true' circular='true' interval='2000'>
+    <swiper-item>
+      <image src="http://wimg.huodongxing.com/logo/201903/7485800437000/263377775917468_v2.jpg@!wmlogo" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://user-gold-cdn.xitu.io/2019/3/26/169b9137c38a95ab?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://wimg.huodongxing.com/logo/201903/9484511668000/303364716726942_v2.jpg@!wmlogo" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://wimg.huodongxing.com/logo/201903/2485774991600/123373445739642_v2.jpg@!wmlogo" class="slide-image" />
+    </swiper-item>
+  </swiper>
+  <!-- 本周最热、收藏集、活动 -->
+  <view class='menu'>
+    <navigator class='menu-item'>
+      <icon class='iconfont icon-remen'></icon>
+      <text>本周最热</text>
+    </navigator>
+    <navigator class='menu-item'>
+      <icon class='iconfont icon-book'></icon>
+      <text>收藏集</text>
+    </navigator>
+    <navigator class='menu-item'>
+      <icon class='iconfont icon-notice-color'></icon>
+      <text>活动</text>
+    </navigator>
+  </view>
+  <!-- 热门文章 -->
+  <view class='hot-wrapper'>
+    <!-- 热门文章标题 -->
+    <view class='hot-top'>
+      <view>
+        <icon class='iconfont icon-remen'></icon>
+        <text>热门文章</text>
+      </view>
+      <view>
+        <icon class='iconfont icon-setting1'></icon>
+        <text>定制热门</text>
+      </view>
+    </view>
+    <!--热门文章列表 -->
+    <view class="hot-list">
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+      <navigator class='hot-list-item'>
+        <text class='text-title'>阿里巴巴web开发手册</text>
+        <view class='text-second'>
+          <text>7人赞</text>·
+          <text>欢子</text>·
+          <text>1小时前</text>
+        </view>
+      </navigator>
+
+
     </view>
   </view>
 </view>

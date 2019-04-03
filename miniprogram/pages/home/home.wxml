@@ -1,2 +1,10 @@
-<!--miniprogram/pages/home.wxml-->
-<text>miniprogram/pages/home.wxml</text>
+<view>
+  <view class='menu'>
+    <text class='selected'>推荐</text>
+    <text>关注</text>
+    <text>前端</text>
+  </view>
+  <view class='main'>
+  
+  </view>
+</view>

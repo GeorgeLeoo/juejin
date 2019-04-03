@@ -1,5 +1,6 @@
 /* miniprogram/pages/me/me.wxss */
-.content{
+
+.content {
   background: #f5f6fa;
   font-size: 14px;
   padding-top: 10px;
@@ -7,68 +8,73 @@
   flex-direction: column;
   flex: 1;
 }
+
 .avatar {
   width: 40px;
   height: 40px;
-  background: #cccccc;
+  background: #ccc;
   border-radius: 100%;
   padding: 10px;
 }
 
-.white_bg{
+.white_bg {
   background-color: #fff;
 }
 
-.color1{
+.color1 {
   color: #acb4bf;
 }
 
-.color-notice{
+.color-notice {
   color: #0076fe;
 }
 
-.color-like{
+.color-like {
   color: #6cbd45;
 }
 
-.color-collect{
+.color-collect {
   color: #ffc347;
 }
 
-.color-book{
+.color-book {
   color: #ffbd4c;
 }
-.item{
+
+.item {
   border-bottom: 1px solid #f5f6fa;
   padding: 4px 20px;
-  line-height: 30px;
+  line-height: 36px;
+  font-size: 15px;
 }
-.list{
+
+.list {
   margin-bottom: 10px;
 }
-text{
+
+text {
   padding-left: 20px;
 }
 
-.avatarbox{
+.avatarbox {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1;
 }
 
-.avatar-item{
+.avatar-item {
   display: flex;
   align-items: center;
   padding: 10px 20px;
 }
 
-.loginreg{
+.loginreg {
   font-size: 16px;
   margin-bottom: 6px;
 }
 
-.avatar2{
+.avatar2 {
   display: flex;
   flex-direction: column;
 }
