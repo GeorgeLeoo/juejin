@@ -40,11 +40,11 @@
   <view class='hot-wrapper'>
     <!-- 热门文章标题 -->
     <view class='hot-top'>
-      <view>
+      <view class='hot-top-item'>
         <icon class='iconfont icon-remen'></icon>
         <text>热门文章</text>
       </view>
-      <view>
+      <view class='hot-top-item'>
         <icon class='iconfont icon-setting1'></icon>
         <text>定制热门</text>
       </view>

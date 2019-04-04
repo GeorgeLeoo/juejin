@@ -16,9 +16,12 @@
   font-size: 14px;
   padding-left: 12px;
 }
-
+swipper{
+  height: 150px;
+}
 .slide-image {
   width: 100%;
+  height: 150px;
 }
 
 .menu {
@@ -27,6 +30,8 @@
   justify-content: space-around;
   padding: 10px 0;
   background: #fff;
+  margin-top: 10px;
+  height: 140px;
 }
 
 .menu-item {
@@ -71,6 +76,12 @@
   justify-content: space-between;
   border-bottom: 1px solid #f5f6fa;
   line-height: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.hot-top-item{
+  height: 40px;
 }
 
 .hot-top .icon-remen {
