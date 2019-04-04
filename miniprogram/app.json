@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/find/find",
+    "pages/login/login",
     "pages/home/home",
+    "pages/find/find",
     "pages/search/search",
     "pages/book/book",
     "pages/me/me",
     "pages/search_page/search_page"
+    
   ],
   "window": {
     "backgroundColor": "#f5f6fa",

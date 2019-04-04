@@ -1,10 +1,34 @@
-<view>
-  <view class='menu'>
-    <text class='selected'>推荐</text>
-    <text>关注</text>
-    <text>前端</text>
+<view class='content'>
+  <!-- scroll-view在设置横向滚动时要把white-space设为nowrap -->
+  <scroll-view class='menu' scroll-x>
+    <text class='{{menuSelectedIndex === index ? "selected" : ""}}' wx:for='{{menuList}}' wx:key='{{index}}' data-index='{{index}}' bindtap='handleMenuClick'>{{item.title}}</text>
+  </scroll-view>
+  <!-- 热门推荐 -->
+  <view>
+    <view class='hot-top'>
+      <view>
+        <icon class='iconfont icon-remen blue'></icon>
+        <text class='blue'>热门文章</text>
+      </view>
+      <view class='hot-top-icon'>
+        <icon class='iconfont icon-28'></icon>
+        <icon class='iconfont icon-baseline-close-px'></icon>
+      </view>
+    </view>
+
   </view>
+  <!-- main -->
   <view class='main'>
-  
+    <view class='item' wx:for='{{list}}' wx:key='{{index}}'>
+      <view class='item-top'>
+        <!-- <image src='{{item.node.user.avatarLarge}}'></image> -->
+        <text>{{item.node.user.username}}</text>
+        <view class='tags'>
+          <text wx:for='{{item.node.tags}}' wx:key='index'>{{item.title}} </text>
+        </view>
+      </view>
+      <view>{{item.node.title}}</view>
+      <text>{{item.node.content}}</text>
+    </view>
   </view>
 </view>

@@ -38,3 +38,5 @@
     ]
   }
 ```
+
+##scroll-view在设置横向滚动时要把white-space设为nowrap

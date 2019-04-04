@@ -4,6 +4,12 @@
   font-size: 12px;
   height: 38px;
   box-shadow: 0 1px 1px #ccc;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+}
+.content{
+  padding-top: 38px;
 }
 .menu text{
   padding: 0 20px;
@@ -13,4 +19,45 @@
 
 .selected{
   border-bottom: 2px solid #fff;
+}
+
+.hot-top {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f6fa;
+  line-height: 40px;
+  background: #fff;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.hot-top .blue {
+  color: #0080ff;
+  padding-right: 10px;
+}
+
+.hot-top-icon{
+  color: #aebac8;
+  font-weight: bold;
+}
+
+.hot-top-icon icon{
+  padding: 0 10px;
+}
+
+.item{
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
+.tags{
+  color: #aebac8;
+}
+
+.item-top{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
