@@ -1,12 +1,35 @@
-<view>
+<view class='content'>
   <view class='menu'>
-    <text class='selected'>推荐</text>
-    <text>综合</text>
-    <text>沸点</text>
+    <text class='{{index === menuSelectedIndex ? "selected" : ""}}' wx:for='{{menuList}}' wx:key='{{index}}' bindtap='handleMenuClick' data-index='{{index}}'>{{item.title}}</text>
   </view>
   <view class='main'>
-    <view>
-      <view></view>
+    <view class='list-item' wx:for='{{list}}' wx:key='{{index}}'>
+      <view class='list-top'>
+        <image class='avatar-top' src='{{item.node.actors[0].avatarLarge}}'></image>
+        <view class='list-top-txt'>
+          <text>{{item.node.actors[0].username}}</text>
+          <text>{{item.node.actors[0].jobTitle}} @ {{item.node.actors[0].company}}</text>
+        </view>
+        <view class='attention'>关注</view>
+      </view>
+      
+      <view class='list-content'>
+        <view>
+          <text class='list-content-txt'>{{item.node.targets[0].content}}</text>
+        </view>
+        <!-- <view wx:if='{{item.node.targets[0].pictures.length!==0}}'>
+          <image class='list-content-img' src='{{item.node.targets[0].pictures[0]}}'></image>
+        </view> -->
+      </view>
+
+      <view class='list-bot'>
+        <view><icon class='iconfont icon-like'></icon><text>{{item.node.targets[0].commentCount}}</text></view>
+        <view><icon class='iconfont icon-msg1'></icon><text>{{item.node.targets[0].likeCount}}</text></view>
+        <view><icon class='iconfont icon-share'></icon><text>分享</text></view>
+      </view>
+    </view>
+    <view wx:if='{{menuList === null}}'>
+      <view class='recommendation-top'><text>你可能感兴趣的人</text></view>
     </view>
   </view>
 </view>
