@@ -24,3 +24,24 @@
   line-height: 50px;
   text-align: center;
 }
+
+.forget-reg{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.fotget{
+  opacity: 0.5;
+}
+.logo_wrapper{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+}

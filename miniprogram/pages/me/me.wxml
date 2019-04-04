@@ -1,6 +1,6 @@
 <view class='content'>
   <!-- 头像 注册 登录 -->
-  <navigator class='white_bg list avatar-item'>
+  <navigator class='white_bg list avatar-item' url='../login/login'>
     <image class='avatar' src='../../images/avatar/avatar.png'></image>
     <view class='avatarbox'>
       <view class='avatar2'>
@@ -12,27 +12,27 @@
   </navigator>
   <!-- 列表1 -->
   <view class='white_bg list'>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-notice color-notice'></icon>
       <text>消息通知</text>
     </navigator>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-like1 color-like'></icon>
       <text>我赞过的</text>
     </navigator>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-collect color-collect'></icon>
       <text>收藏集</text>
     </navigator>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-shopping color-book'></icon>
       <text>已购小册</text>
     </navigator>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-view color1'></icon>
       <text>阅读过的文章</text>
     </navigator>
-    <navigator class='item'>
+    <navigator class='item' url='../login/login'>
       <icon class='iconfont icon-tag color1'></icon>
       <text>标签管理</text>
     </navigator>

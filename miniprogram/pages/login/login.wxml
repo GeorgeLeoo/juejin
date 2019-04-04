@@ -1,6 +1,6 @@
 <view class='content'>
-  <view>
-  <image src=''></image>
+  <view class='logo_wrapper'>
+    <image class='logo' src='../../images/logo/ic_login_logo.png'></image>
   </view>
   <view class='input-group'>
     <input class='input' placeholder='手机号/邮箱'></input>
@@ -8,4 +8,8 @@
     <input class='input' placeholder='密码'></input>
   </view>
   <view class='loginbtn'>登录</view>
+  <view class='forget-reg'>
+    <text class='fotget'>忘记密码？</text>
+    <text>注册账号</text>
+  </view>
 </view>
